@@ -8,8 +8,8 @@ repositories {
 }
 
 tasks.wrapper {
-    gradleVersion = "8.8-rc-2"
-    distributionSha256Sum = "8cc380c27207423e8d0b2feeedca5f52c269aa52f797f5b5ea7cb5d101713329"
+    gradleVersion = "8.8"
+    distributionSha256Sum = "f8b4f4772d302c8ff580bc40d0f56e715de69b163546944f787c87abf209c961"
     distributionType = Wrapper.DistributionType.ALL
 }
 
