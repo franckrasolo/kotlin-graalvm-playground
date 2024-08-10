@@ -11,6 +11,10 @@ _targets:
 @versions:
   ./gradlew refreshVersionsMigrate --mode=VersionsPropertiesOnly && ./gradlew refreshVersions
 
+# compiles programs as native images placed under build/native/nativeCompile/
+@images:
+  ./gradlew nativeCompile
+
 # prints names and version numbers of the shared libraries for a given program
 @libs program:
   file build/native/nativeCompile/{{program}}
