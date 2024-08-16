@@ -15,5 +15,6 @@ These executables are currently built using the official
 from GraalVM.
 
 In a future iteration, we'll attempt to build them with these Bazel rules:
+
 - [bazelbuild/rules_kotlin](https://github.com/bazelbuild/rules_kotlin)
 - [sgammon/rules_graalvm](https://github.com/sgammon/rules_graalvm)
