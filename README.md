@@ -6,7 +6,7 @@
 [![Gradle](https://img.shields.io/badge/Gradle-8.8-blue.svg?style=flat&labelColor=30373d)](https://docs.gradle.org/8.8/release-notes.html)
 [![Apache License 2.0](https://img.shields.io/badge/License-MIT-blue.svg?style=flat&labelColor=30373d)](https://github.com/franckrasolo/kotlin-graalvm-playground/blob/trunk/LICENSE)
 
-This playgound includes a Nix flake providing the
+This playground includes a Nix flake providing the
 [GraalVM Native Image](https://www.graalvm.org/jdk21/reference-manual/native-image/)
 toolchain to produce Kotlin/JVM executables.
 
