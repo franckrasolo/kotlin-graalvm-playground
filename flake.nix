@@ -17,6 +17,7 @@
           direnv
           graalvm-21
           just
+          tokei
         ];
 
         # Workaround for a GraalVM issue where the builder no longer has access to
