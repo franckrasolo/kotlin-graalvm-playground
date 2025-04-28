@@ -1,7 +1,7 @@
 # Kotlin/JVM & GraalVM playground
 
 [![Nix flake](https://img.shields.io/badge/Built_with-macOS%2015.3.2-43329C.svg?style=flat&logo=nixos&logoColor=white&label=Flake%20used%20on&labelColor=5277C3&suffix=macOS%2015.3.2)](https://nix.dev/concepts/flakes)
-[![Kotlin](https://img.shields.io/badge/Kotlin-2.1.10-blue.svg?logo=kotlin&style=flat&labelColor=30373d)](https://kotlinlang.org)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.1.20-blue.svg?logo=kotlin&style=flat&labelColor=30373d)](https://kotlinlang.org)
 [![GraalVM](https://img.shields.io/badge/GraalVM%20CE-21.0.1-blue.svg?style=flat&labelColor=30373d)](https://www.graalvm.org/jdk21/docs/)
 [![Gradle](https://img.shields.io/badge/Gradle-8.13-blue.svg?style=flat&labelColor=30373d)](https://docs.gradle.org/8.13/release-notes.html)
 [![Apache License 2.0](https://img.shields.io/badge/License-MIT-blue.svg?style=flat&labelColor=30373d)](https://github.com/franckrasolo/kotlin-graalvm-playground/blob/trunk/LICENSE)
