@@ -15,17 +15,10 @@
       devShells.default = mkShell {
         packages = [
           direnv
-          graalvm-21
+          graalvmPackages.graalvm-ce
           just
           tokei
         ];
-
-        # Workaround for a GraalVM issue where the builder no longer has access to
-        # environment variables since 21.0.0
-        #
-        # https://github.com/oracle/graal/pull/6095
-        # https://github.com/oracle/graal/issues/7502
-        env.NATIVE_IMAGE_DEPRECATED_BUILDER_SANITATION = "true";
 
         shellHook = ''
           # health checks for Nix flake inputs

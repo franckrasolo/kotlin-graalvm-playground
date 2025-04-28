@@ -28,8 +28,6 @@ graalvmNative {
             buildArgs.apply {
                 // disable native toolchain checking (macOS only?)
                 addAll("-H:+UnlockExperimentalVMOptions", "-H:-CheckToolchain")
-                // prepare for the next GraalVM release
-                add("--strict-image-heap")
                 // require types to be fully defined at image build-time
                 add("--link-at-build-time")
                 // enable more CPU features for improved performance
@@ -53,7 +51,7 @@ graalvmNative {
             verbose = false
 
             javaLauncher = javaToolchains.launcherFor {
-                languageVersion = JavaLanguageVersion.of(21)
+                languageVersion = JavaLanguageVersion.of(23)
                 vendor = JvmVendorSpec.GRAAL_VM
             }
         }
